@@ -28,6 +28,13 @@ npm install
 npm run dev
 ```
 
+### 4. Import data for frontend
+
+``` bash
+npx strapi import -f .\export_data.tar.gz.enc
+```
+Decryption key = 1
+
 The application will be available at:
 
     http://localhost:5173
